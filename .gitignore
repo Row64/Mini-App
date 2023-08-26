@@ -1,0 +1,14 @@
+build/
+.DS_Store
+.vscode/
+imgui.ini
+Row64*.exe
+# regular visual studio files
+.vs/
+# used by regular visual studio
+CMakeSettings.json
+# NO pyc files.
+**/**.pyc
+**/__pycache__
+# NO recipe debug files
+**/**.debug
