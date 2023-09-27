@@ -84,6 +84,14 @@ namespace Blocks {
                 printf( "POST Error: %s\n", to_string(res.error()).c_str() );
             }
         }
+        else if ( inItem == "Open File Dialog" ) {
+            string path = DrawOpenFileDialog( "csv,txt", "" );
+            std::cout << "Open File Dialog path: " << path << std::endl;
+        }
+        else if ( inItem == "Save File Dialog" ) {
+            string path = DrawSaveFileDialog( "", "" );
+            std::cout << "Save File Dialog path: " << path << std::endl;
+        }
     }
 
 } // end namespace Blocks

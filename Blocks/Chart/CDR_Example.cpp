@@ -50,7 +50,10 @@ void CDR_Example::DrawExample() {
         if ( ppgI != -1 && ADIO->MM.MouseHit( ppgI ) ) { openMenu = true; }       
         if ( openMenu ) {
             ADIO->FM.SetFocus( ft_context_menu, "Example_RightClick" );
-            UISetContextMenu( "Example_RightClick", {"Add Floating PPG", "Open Underlay PPG", "Close Underlay PPG", "Open Overlay PPG", "Close Overlay PPG","----","Connect Server", "Test Server","Test HTTP"} );
+            UISetContextMenu( "Example_RightClick", {"Add Floating PPG", "Open Underlay PPG", "Close Underlay PPG", "Open Overlay PPG", "Close Overlay PPG",
+                            "----","Connect Server", "Test Server","Test HTTP",
+                            "----","Open File Dialog", "Save File Dialog"
+                            } );
         }
     }
 

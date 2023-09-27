@@ -207,6 +207,11 @@ if ( UNIX )
 	target_link_libraries( ${PROJECT_NAME} stdc++fs)
 endif()
 
+# Native File Dialog ------------------------------------------------------------
+
+add_subdirectory(External/nativefiledialog)
+target_link_libraries(${PROJECT_NAME} nativefiledialog)
+
 #################################################################################
 # Data Copies       															#
 #################################################################################

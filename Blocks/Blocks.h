@@ -8,6 +8,7 @@
 #include "Block_Colors.h"
 #include "Block_ContextMenu.h"
 #include "Block_Modal_Popups.h"
+#include "Block_NFD.h"
 
 #include "Block_PPG.h"
 #include "Test_PPG.h"
